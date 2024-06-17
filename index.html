@@ -10,25 +10,27 @@
 <body>
     <header>
         <div class="container">
-            <img class="profile-avatar" src="https://via.placeholder.com/180x180" alt=".">
-            <h1 class="profile-name">Gian Souza</h1>
-            <h2 class="profile-username">@ogiansouza</h2>
+            <img id="avatar-img" class="profile-avatar" src="" alt=".">
+            <h1 class="profile-name" id="nome-usuario"></h1>
+            <h2 class="profile-username" id="arroba-usuario"></h2>
             <ul class="numbers">
                 <li class="numbers-item">
                     <h4>Repositórios</h4>
-                    5
+                    <span id="quantidade-repositorios"></span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguidores</h4>
-                    5
+                    <span id="quantidade-seguidores"></span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguindo</h4>
-                    5
+                    <span id="quantidade-seguindo"></span>
                 </li>
             </ul>
-            <a href="#" class="profile-link">Ver no Github</a>
+            <a id="link-github" href="" class="profile-link">Ver no Github</a>
         </div>
     </header>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
